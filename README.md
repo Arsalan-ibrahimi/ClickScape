@@ -1,4 +1,7 @@
+
 # ClickScape
+
+<img width="403" alt="Screenshot 2024-09-15 at 4 54 58 PM" src="https://github.com/user-attachments/assets/3a42f18f-a185-49e8-8786-14c021d63485">
 
 ClickScape is a Chrome extension designed to enhance your browsing experience by providing quick access to your favorite websites. It allows you to save, organize, and easily access your frequently visited URLs with just one click.
 
