@@ -1,8 +1,8 @@
 {
     "manifest_version": 3,
   
-    "name": "Instant Tabs",
-    "description": "This extension shows a Google Image search result for the current page",
+    "name": "ClickScape",
+    "description": "A Chrome extension for URL access and quick navigation on click",
     "version": "1.0",
   
     "action": {
