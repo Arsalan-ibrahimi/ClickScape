@@ -1,0 +1,25 @@
+{
+    "manifest_version": 3,
+  
+    "name": "Instant Tabs",
+    "description": "This extension shows a Google Image search result for the current page",
+    "version": "1.0",
+    "chrome_url_overrides": {
+    "newtab": "popup/desktop.html"
+  },
+    "action": {
+    
+      "default_popup": "popup/popup.html",
+      
+      "default_title": "Instant Tabs!",
+    "default_icon": "assets/images/logo/logo.png"
+     
+    },
+    
+    "permissions": [
+      "activeTab"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    }
+  }

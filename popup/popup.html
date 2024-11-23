@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Instant Dial</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="innerElements">
+        <div class="info-helper-wrap">
+          
+        </div>
+
+        <div class="tabs"></div>
+      </div>
+
+      <!-- The Modal -->
+      <div id="myModal" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+          <div class="modal-header">
+            <span class="close"></span>
+            <p>Settings and Properties</p>
+          </div>
+          <div class="modal-body">
+            <div class="controls controls-active">
+              <div class="input-fields">
+                <input type="text" placeholder="Name" id="dialNameValue" />
+                <input
+                  type="url"
+                  id="dialLinkValue"
+                  name="dialLinkValue"
+                  placeholder="URL"
+                  required pattern=".*\S.*"
+                />
+                <button class="btn-save" id="addDial">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="20px"
+                    viewBox="0 -960 960 960"
+                    width="20px"
+                  >
+                    <path
+                      d="M202.46-202.46V-757.54-202.46Zm24.62 36.92q-25.94 0-43.74-17.8t-17.8-43.55v-506.22q0-25.75 17.8-43.55 17.8-17.8 43.55-17.8h506.22q25.75 0 43.55 17.8 17.8 17.8 17.8 43.74v313.19q-9.03-1.77-18.42-2.46-9.39-.69-18.5-.58v-310.15q0-9.23-7.69-16.93-7.7-7.69-16.93-7.69H227.08q-9.23 0-16.93 7.69-7.69 7.7-7.69 16.93v505.84q0 9.23 7.69 16.93 7.7 7.69 16.93 7.69h310.15q-.11 9.11.58 18.5t2.84 18.42H227.08ZM760-70.81 734.81-96l83.57-85.73H621.73v-36.92h196.65L734.81-304 760-329.58 889.58-200 760-70.81ZM461.85-303.08h36.92v-158.77h158.15v-36.92H498.77v-158.15h-36.92v158.15H303.08v36.92h158.77v158.77Z"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
+            <button id="saveJson">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="24px"
+                viewBox="0 -960 960 960"
+                width="24px"
+                fill="#714aff"
+              >
+                <path
+                  d="M298-298h364v-52H298v52Zm182-123.85L610.15-552 573-589.15l-67 67.77V-686h-52v164.62l-67-67.77L349.85-552 480-421.85Zm.34 305.85q-75.11 0-141.48-28.42-66.37-28.42-116.18-78.21-49.81-49.79-78.25-116.09Q116-405.01 116-480.39q0-75.38 28.42-141.25t78.21-115.68q49.79-49.81 116.09-78.25Q405.01-844 480.39-844q75.38 0 141.25 28.42t115.68 78.21q49.81 49.79 78.25 115.85Q844-555.45 844-480.34q0 75.11-28.42 141.48-28.42 66.37-78.21 116.18-49.79 49.81-115.85 78.25Q555.45-116 480.34-116Zm-.34-52q130 0 221-91t91-221q0-130-91-221t-221-91q-130 0-221 91t-91 221q0 130 91 221t221 91Zm0-312Z"
+                />
+              </svg>
+            </button>
+          </div>
+          <div class="modal-footer input-fields">
+           
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="sortable.min.js"></script>
+    <script src="popup.js"></script>
+  </body>
+</html>
